@@ -1,12 +1,12 @@
 
 import { getRandomInt } from "./util.js"
-import { words } from "./words.js"
-import catStyle_ from "./style.css";
+import { wiseWords } from "./words.js"
+import style_ from "./style.css";
 
-export class WiseWord {
+export default class WiseCatSaying {
 
-  style = catStyle_
-  words = words
+  style = style_
+  words = wiseWords
   targetElement = ''
   imageUrl = 'https://thecatapi.com/api/images/get?format=src&type=gif'
 

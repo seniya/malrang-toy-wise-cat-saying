@@ -5,11 +5,17 @@ import css from "rollup-plugin-import-css";
 
 export default {
   input: 'src/index.js',
-  output: {
-    file: 'dist/main.js',
-    format: 'esm',
-    
+  output: [
+  {
+    name: 'WiseCatSaying',
+    file: 'dist/main.umd.js',
+    format: 'umd',    
   },
+  {
+    file: 'dist/main.esm.js',
+    format: 'esm',    
+  }
+  ],
   plugins: [css(), nodeResolve(), commonjs(), terser()]
   // plugins: [css()]
-}
+} 

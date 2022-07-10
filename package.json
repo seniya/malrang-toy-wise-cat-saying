@@ -1,8 +1,8 @@
 {
   "name": "@malrang-toy/wise-cat-saying",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "toy project - wise cat saying",
-  "main": "./dist/main.js",
+  "main": "./dist/main.esm.js",
   "scripts": {
     "sass": "sass --no-source-map ./src/style.scss ./src/style.css",
     "build": "rollup -c",
@@ -25,7 +25,7 @@
     "toy",
     "cat"
   ],
-  "module": "./dist/main.js",
+  "module": "./dist/main.esm.js",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
