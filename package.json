@@ -1,6 +1,6 @@
 {
   "name": "@malrang-toy/wise-cat-saying",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "toy project - wise cat saying",
   "main": "./dist/main.esm.js",
   "scripts": {
