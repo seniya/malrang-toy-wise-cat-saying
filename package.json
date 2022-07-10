@@ -1,0 +1,37 @@
+{
+  "name": "@malrang-toy/wise-cat-saying",
+  "version": "1.0.0",
+  "description": "toy project - wise cat saying",
+  "main": "./dist/main.js",
+  "scripts": {
+    "sass": "sass --no-source-map ./src/style.scss ./src/style.css",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "malrang <seniya2@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seniya/malrang-toy-wise-cat-saying.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "malrang",
+    "toy",
+    "cat"
+  ],
+  "module": "./dist/main.js",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-import-css": "^3.0.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.53.0"
+  }
+}

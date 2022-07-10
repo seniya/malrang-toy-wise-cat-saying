@@ -1,0 +1,48 @@
+.wcs-container {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+
+  .wcs-card {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 14px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 9999;
+
+    .wcs-card__image {
+      position: relative;
+      height: 230px;
+      margin-bottom: 35px;
+      border-top-left-radius: 14px;
+      border-top-right-radius: 14px;
+    
+      img {    
+        position: absolute;    
+        height: 250px;
+        width: 300px;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+      }
+    }
+
+    .wcs-card__name {
+      font-size: 26px;
+      color: black;
+      font-weight: 900;
+      margin-bottom: 5px;
+    }
+    
+    .wcs-card__contents {
+      padding: 20px;
+      margin-bottom: 10px;  
+    }
+  }
+}
+
+
+
