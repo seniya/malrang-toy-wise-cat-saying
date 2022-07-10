@@ -3,12 +3,9 @@
 This is a toy projects. this module is shown The WiseSaying with cute cat
 
 
-<!-- -->
 <img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-01.png?raw=true" alt="Get a word with Cat" style="width:300px;"/>
 
 <img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-02.png?raw=true" alt="Get a word with Cat" style="width:300px;"/>
-
-
 
 
 ### Table of Contents
@@ -113,8 +110,8 @@ window.onload = function(){
 Thank you !!
 
 ## Origin Source From
-#### cat inmage : https://thecatapi.com/
-#### wise saying : google(?)
+#### Cat image : https://thecatapi.com/
+#### WiseSaying : google(?)
 
 
 
