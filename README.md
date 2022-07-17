@@ -3,9 +3,11 @@
 This is a toy projects. this module is shown The WiseSaying with cute cat
 
 
-<img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-01.png?raw=true" alt="Get a word with Cat" style="width:300px;"/>
+<img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-01.png?raw=true" alt="Get a word with Cat" style="width:200px;"/>
 
-<img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-02.png?raw=true" alt="Get a word with Cat" style="width:300px;"/>
+<br />
+
+<img src="https://github.com/seniya/malrang-toy-wise-cat-saying/blob/main/public/screen-02.png?raw=true" alt="Get a word with Cat" style="width:200px;"/>
 
 
 ### Table of Contents
